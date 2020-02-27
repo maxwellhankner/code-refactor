@@ -10,7 +10,7 @@ To-Do:
 [ ] Fix cover photo
 
 Questions:
-Menu tag not working?
+Menu tag not working? nav tag
 Can css get any simpler?
 What did I forgey?
 Do i need an id to scroll to that section?
