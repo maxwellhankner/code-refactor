@@ -3,11 +3,12 @@
 To-Do:
 [-] Consolidate css selectors/classes
 [X] Make sure links are working
-[-] Use better tags
+[X] Use better tags
 [ ] Add comments to html and css
 [ ] Create readme explaining the website
 [ ] CSS reset
-[ ] Fix cover photo
+[X] Fix cover photo
+[X] Hover
 
 Questions:
 Menu tag not working? nav tag
