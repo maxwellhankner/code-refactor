@@ -1,5 +1,7 @@
+/*----------------------- Full Page */
+/* This code targets everything on the page to get things set to a standard */
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /* Sets how the width and height of all elements are calculated, margin not included */
     padding: 0;
     margin: 0;
 }
@@ -8,8 +10,19 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*----------------------- Header */
+/* This code targets the top bar of the website */
 header {
-    position: fixed;
+    position: fixed; /* Positions the header at the top of the page even when scrolling (including top, and width) */
     top: 0;
     width: 100%;
     padding: 20px;
@@ -48,34 +61,19 @@ header nav ul li a:hover {
     color: lightgrey;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/*----------------------- Cover Photo */
+/* This code places and sizes a cover photo under the header bar */
 .coverPhoto {
     width: 100%;
     height: 800px;
-    margin-top: 40px;
+    margin-top: 75px;
     margin-bottom: 25px;
     object-fit: cover;
     overflow: hidden;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/*----------------------- Main */
+/* This code controls the left (main) content */
 main {
     width: 75%;
     display: inline-block;
@@ -91,6 +89,16 @@ main section {
     color: #ffffff;
 }
 
+.float-left { /* Adjusts the image to the left side of the section */
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {/* Adjusts the image to the right side of the section */
+    float: right;
+    margin-left: 25px;
+}
+
 main section img {
     max-height: 200px;
 }
@@ -98,12 +106,19 @@ main section img {
 main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    font-weight: bold;
 }
 
+main section p {
+    line-height: normal;
+}
+
+/*----------------------- Aside */
+/* This code controls the right (side bar) content */
 aside {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
+    clear: both; /* Nothing to the sides */
     float: right;
     width: 20%;
     height: 100%;
@@ -119,21 +134,27 @@ aside section {
 aside section h3 {
     margin-bottom: 10px;
     text-align: center;
+    font-weight: bold;
+    font-size: 1.17em;
 }
 
 aside section img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 150px; /* Width of 150px at the most */
 }
 
-footer {
+/*----------------------- Footer */
+/* This code contols the bottom bar (footer) content */
+footer { 
     padding: 30px;
-    clear: both;
+    clear: both; /* Nothing to the sides */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    line-height: normal;
 }
 
 footer h2 {
     font-size: 20px;
+    font-weight: bold;
 }
