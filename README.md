@@ -4,20 +4,20 @@
 
 Welcome the the Horiseon website!
 
-Here, you can get a feel for just a few of the things our company is all about.
+Here, you can get a feel for just a few of the things our company is all about
 
-We are fully equipt to take you brand to the next level.
+We are fully equipt to take you brand to the next level
 
-Contact our team for more information and a free consultation.
+Contact our team for more information and a free consultation
 
 
 ## As a Developer
 
 ### Welcome to the Horiseon website!
 
-This is a great example of what a companies website could look like.
+This is a great example of what a companies website could look like
 
-Feel free to copy and 'pasta' the code for your own use.
+Feel free to copy and 'pasta' the code for your own use
 
 ### Features:
 
