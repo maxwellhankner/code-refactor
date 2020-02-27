@@ -1,6 +1,6 @@
 # READ ME
 
-## ---------------------------------- As a Company
+## As a Company
 
 Welcome the the Horiseon website!
 
@@ -11,7 +11,7 @@ We are fully equipt to take you brand to the next level.
 Contact our team for more information and a free consultation.
 
 
-## ---------------------------------- As a Developer
+## As a Developer
 
 ### Welcome to the Horiseon website!
 
@@ -37,4 +37,4 @@ A responsive layout that works with all screen sizes
 
 External links such as social media accounts or launching map directions to the companies location
 
-Thanks for checking out the project!
+## Thanks for checking out the project!
